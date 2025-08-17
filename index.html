@@ -6,13 +6,20 @@
   </head>
   <body>
     <div class="container">
-      <h1>📚 Book Finder</h1>
-      <input type="text" id="query" placeholder="Enter book title or author name" />
-      <button id="search">Search</button>
-    </div>
+      <h1 style="margin-bottom: 12px">Book Finder</h1>
+      <div class="controls">
+        <input
+          id="query"
+          type="text"
+          placeholder="Search by title, author, or keyword"
+        />
+        <button id="search">Search</button>
+      </div>
 
-    <div id="results"></div>
-    <button id="loadMore">Load More</button>
+      <div id="results"></div>
+      <button id="loadMore" aria-label="Load more results">Load More</button>
+      <div id="status" class="status" role="status" aria-live="polite"></div>
+    </div>
 
     <script src="./index.js"></script>
   </body>
