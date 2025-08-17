@@ -50,6 +50,3 @@ https://covers.openlibrary.org/b/id/COVER_ID-M.jpg
 
 ## Preview
 <img src="/assets/snapshot.png" alt="snapshot Preview" width="400">
-
-
-
