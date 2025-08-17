@@ -30,26 +30,15 @@ book-finder-app/
 │── script.js # JavaScript logic (search, render, load more)
 │── README.md # Project documentation
 
----
-
 ## API Reference
 We’re using the Open Library Search API:
 https://openlibrary.org/search.json?q=SEARCH_TERM
 
----
-
 ## Covers are fetched from:
 https://covers.openlibrary.org/b/id/COVER_ID-M.jpg
-
----
 
 ## More docs: 
 <a href="https://openlibrary.org/developers/api">Open Library API</a>
 
----
-
 ## Preview
 <img src="/assets/snapshot.png" alt="snapshot Preview" width="400">
-
-
-
